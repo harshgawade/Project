@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">876678881418-d8f5ob09ei5mj3af98cvrcpc41rvdjk8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://handsign-app-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">876678881418</string>
+    <string name="google_api_key" translatable="false">AIzaSyAlrwnHm-b_zPpvrAoeWRYXXnRPliOU1D4</string>
+    <string name="google_app_id" translatable="false">1:876678881418:android:b4c40aa458c809180ecd73</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAlrwnHm-b_zPpvrAoeWRYXXnRPliOU1D4</string>
+    <string name="google_storage_bucket" translatable="false">handsign-app.appspot.com</string>
+    <string name="project_id" translatable="false">handsign-app</string>
+</resources>

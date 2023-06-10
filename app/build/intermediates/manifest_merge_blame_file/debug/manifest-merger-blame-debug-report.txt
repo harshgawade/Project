@@ -1,0 +1,402 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.plant_leaf_disase_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:8:22-64
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <application
+29-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:10:5-116:19
+30        android:allowBackup="true"
+30-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:11:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.8.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\d48a3d67bc7bcc38ec136f47c4d3369f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:12:9-65
+33        android:debuggable="true"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:13:9-54
+35        android:icon="@drawable/logo12"
+35-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:14:9-40
+36        android:label="@string/app_name"
+36-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:15:9-41
+37        android:roundIcon="@drawable/logo12"
+37-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:16:9-45
+38        android:supportsRtl="true"
+38-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:17:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.Plantleafdisaseapp" >
+40-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:18:9-56
+41        <activity
+41-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:20:9-28:20
+42            android:name="com.example.plant_leaf_disase_app.dash"
+42-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:21:13-33
+43            android:exported="true" >
+43-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:22:13-36
+44            <meta-data
+44-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+45                android:name="android.app.lib_name"
+45-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+46                android:value="" />
+46-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+47        </activity>
+48        <activity
+48-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:29:9-44:20
+49            android:name="com.example.plant_leaf_disase_app.splashscreen"
+49-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:30:13-41
+50            android:exported="true" >
+50-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:31:13-36
+51            <intent-filter>
+51-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:34:13-38:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:35:17-69
+52-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:35:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:37:17-77
+54-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:37:27-74
+55            </intent-filter>
+56
+57            <meta-data
+57-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+59                android:value="" />
+59-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+60        </activity>
+61        <activity
+61-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:45:9-51:20
+62            android:name="com.example.plant_leaf_disase_app.Displayproduct"
+62-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:46:13-43
+63            android:exported="true" >
+63-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:47:13-36
+64            <meta-data
+64-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+65                android:name="android.app.lib_name"
+65-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+66                android:value="" />
+66-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+67        </activity>
+68        <activity
+68-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:52:9-63:20
+69            android:name="com.example.plant_leaf_disase_app.addshop"
+69-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:53:13-36
+70            android:exported="true" >
+70-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:54:13-36
+71            <meta-data
+71-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+72                android:name="android.app.lib_name"
+72-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+73                android:value="" />
+73-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+74        </activity>
+75        <activity
+75-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:64:9-70:20
+76            android:name="com.example.plant_leaf_disase_app.home"
+76-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:65:13-33
+77            android:exported="true" >
+77-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:66:13-36
+78            <meta-data
+78-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+79                android:name="android.app.lib_name"
+79-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+80                android:value="" />
+80-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+81        </activity>
+82        <activity
+82-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:71:9-77:20
+83            android:name="com.example.plant_leaf_disase_app.weather"
+83-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:72:13-36
+84            android:exported="true" >
+84-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:73:13-36
+85            <meta-data
+85-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+86                android:name="android.app.lib_name"
+86-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+87                android:value="" />
+87-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+88        </activity>
+89        <activity
+89-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:78:9-84:20
+90            android:name="com.example.plant_leaf_disase_app.location"
+90-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:79:13-37
+91            android:exported="true" >
+91-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:80:13-36
+92            <meta-data
+92-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+93                android:name="android.app.lib_name"
+93-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+94                android:value="" />
+94-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+95        </activity>
+96        <activity
+96-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:85:9-92:20
+97            android:name="com.example.plant_leaf_disase_app.detection"
+97-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:86:13-38
+98            android:exported="true" >
+98-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:87:13-36
+99            <meta-data
+99-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+100                android:name="android.app.lib_name"
+100-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+101                android:value="" />
+101-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+102        </activity>
+103        <activity
+103-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:93:9-99:20
+104            android:name="com.example.plant_leaf_disase_app.register"
+104-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:94:13-37
+105            android:exported="false" >
+105-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:95:13-37
+106            <meta-data
+106-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+107                android:name="android.app.lib_name"
+107-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+108                android:value="" />
+108-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+109        </activity>
+110        <activity
+110-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:100:9-115:20
+111            android:name="com.example.plant_leaf_disase_app.MainActivity"
+111-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:101:13-41
+112            android:exported="true" >
+112-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:102:13-36
+113            <intent-filter>
+113-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:34:13-38:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:35:17-69
+114-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:35:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:37:17-77
+116-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:37:27-74
+117            </intent-filter>
+118
+119            <meta-data
+119-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:25:13-27:36
+120                android:name="android.app.lib_name"
+120-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:26:17-52
+121                android:value="" />
+121-->C:\Users\HARSHVARDHAN\Desktop\plantleafdisaseapp\plantleafdisaseapp\app\src\main\AndroidManifest.xml:27:17-33
+122        </activity>
+123
+124        <service
+124-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:9:13-84
+126            android:directBootAware="true"
+126-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\65385b22d99fd2830634ce6a558b8927\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+127            android:exported="false" >
+127-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:10:13-37
+128            <meta-data
+128-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+129                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+129-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:12:17-116
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\9a3d9c2bb9b2eac79115f12d689b2812\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:13:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\09c39d7f560a748ccfe0d88466797139\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+132                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+132-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\09c39d7f560a748ccfe0d88466797139\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\09c39d7f560a748ccfe0d88466797139\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\71e69ba45d6698d6abad66ec1d6f1ea7\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+135                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+135-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\71e69ba45d6698d6abad66ec1d6f1ea7\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:15:17-122
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-storage-ktx:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\71e69ba45d6698d6abad66ec1d6f1ea7\transformed\firebase-storage-ktx-20.1.0\AndroidManifest.xml:16:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\05b0a718f2bed109e909d62e2b8d795e\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+138                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+138-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\05b0a718f2bed109e909d62e2b8d795e\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\05b0a718f2bed109e909d62e2b8d795e\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+141                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-database:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\c84dd94d62c42f3d91dcad9500ef55d6\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+144                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+144-->[com.google.firebase:firebase-database:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\c84dd94d62c42f3d91dcad9500ef55d6\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-database:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\c84dd94d62c42f3d91dcad9500ef55d6\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\295976ab8b24aa17d921434dc247c750\transformed\firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+147                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+147-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\295976ab8b24aa17d921434dc247c750\transformed\firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\295976ab8b24aa17d921434dc247c750\transformed\firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+149        </service> <!-- Needs to be explicitly declared on P+ -->
+150        <uses-library
+150-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+151            android:name="org.apache.http.legacy"
+151-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+152            android:required="false" />
+152-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\931f8b6b5915dcd61a29d7a3e43981a9\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+153
+154        <activity
+154-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+155            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+155-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+156            android:excludeFromRecents="true"
+156-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+157            android:exported="true"
+157-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+158            android:launchMode="singleTask"
+158-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+159-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+160            <intent-filter>
+160-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+161                <action android:name="android.intent.action.VIEW" />
+161-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+161-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+162
+163                <category android:name="android.intent.category.DEFAULT" />
+163-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+163-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+164                <category android:name="android.intent.category.BROWSABLE" />
+164-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+164-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+165
+166                <data
+166-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+167                    android:host="firebase.auth"
+167-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+168                    android:path="/"
+168-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+169                    android:scheme="genericidp" />
+169-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+170            </intent-filter>
+171        </activity>
+172        <activity
+172-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+173            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+173-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+174            android:excludeFromRecents="true"
+174-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+175            android:exported="true"
+175-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+176            android:launchMode="singleTask"
+176-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+177-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+178            <intent-filter>
+178-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+179                <action android:name="android.intent.action.VIEW" />
+179-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+179-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+181-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+182                <category android:name="android.intent.category.BROWSABLE" />
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+183
+184                <data
+184-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+185                    android:host="firebase.auth"
+185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+186                    android:path="/"
+186-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+187                    android:scheme="recaptcha" />
+187-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\bd73ab1e711e3561f410637329ba8ca3\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+188            </intent-filter>
+189        </activity>
+190        <activity
+190-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\c4547492fba0e06bc5744653b9b248ac\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+191            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+191-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\c4547492fba0e06bc5744653b9b248ac\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+192            android:exported="false"
+192-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\c4547492fba0e06bc5744653b9b248ac\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+193-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\c4547492fba0e06bc5744653b9b248ac\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+194
+195        <provider
+195-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\65385b22d99fd2830634ce6a558b8927\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+196            android:name="com.google.firebase.provider.FirebaseInitProvider"
+196-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\65385b22d99fd2830634ce6a558b8927\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+197            android:authorities="com.example.plant_leaf_disase_app.firebaseinitprovider"
+197-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\65385b22d99fd2830634ce6a558b8927\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+198            android:directBootAware="true"
+198-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\65385b22d99fd2830634ce6a558b8927\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+199            android:exported="false"
+199-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\65385b22d99fd2830634ce6a558b8927\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+200            android:initOrder="100" />
+200-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\65385b22d99fd2830634ce6a558b8927\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+201
+202        <meta-data
+202-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\ec1dfddc3ae0f09711e844dd24509274\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+203            android:name="com.google.android.gms.version"
+203-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\ec1dfddc3ae0f09711e844dd24509274\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+204            android:value="@integer/google_play_services_version" />
+204-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\ec1dfddc3ae0f09711e844dd24509274\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+205
+206        <provider
+206-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\5bcc2672b133595331a1eba9379315a2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+207            android:name="androidx.startup.InitializationProvider"
+207-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\5bcc2672b133595331a1eba9379315a2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+208            android:authorities="com.example.plant_leaf_disase_app.androidx-startup"
+208-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\5bcc2672b133595331a1eba9379315a2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+209            android:exported="false" >
+209-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\5bcc2672b133595331a1eba9379315a2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+210            <meta-data
+210-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\5bcc2672b133595331a1eba9379315a2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+211                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+211-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\5bcc2672b133595331a1eba9379315a2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+212                android:value="androidx.startup" />
+212-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\5bcc2672b133595331a1eba9379315a2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+213            <meta-data
+213-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\728b62d12c9db44065ff7164afa0cab9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+214                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+214-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\728b62d12c9db44065ff7164afa0cab9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+215                android:value="androidx.startup" />
+215-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HARSHVARDHAN\.gradle\caches\transforms-3\728b62d12c9db44065ff7164afa0cab9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+216        </provider>
+217    </application>
+218
+219</manifest>

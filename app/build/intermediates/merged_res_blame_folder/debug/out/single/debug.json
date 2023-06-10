@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_data_list.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/data_list.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_weather.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_weather.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/ic_baseline_notifications_24.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_displayproduct.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_displayproduct.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/menu_menu.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/menu/menu.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-v24_logo.jpg.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable-v24/logo.jpg"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-v24_logo4.png.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable-v24/logo4.png"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-v24_weather.png.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable-v24/weather.png"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_detection.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_detection.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-v24_button.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable-v24/button.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_home.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_location.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_location.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_item.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/item.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-v24_logo12.png.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable-v24/logo12.png"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_splashscreen.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_splashscreen.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-v24_forget.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable-v24/forget.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable-v24_abc.jpg.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable-v24/abc.jpg"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_dailog_forgot.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/dailog_forgot.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_addshop.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_addshop.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_plantbg.jpg.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/plantbg.jpg"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/layout_activity_dash.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/layout/activity_dash.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_plantlogo.png.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/plantlogo.png"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_ic_baseline_add_24.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.plant_leaf_disase_app-merged_res-36:/drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "com.example.plant_leaf_disase_app-main-38:/drawable/ic_baseline_shopping_cart_24.xml"
+    }
+]
